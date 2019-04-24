@@ -26,5 +26,5 @@ default:
 printf("Letra incorrecta\n");
 }
 }
-//mar mola
+//mar mol
 
