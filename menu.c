@@ -2,10 +2,10 @@
 #include <stdio.h>
 void main()
 {
-char c,i,s,p ;
+char c,i,s;
 int opcion;
 printf("Bienvenido a La Papeleria Nogales: ");
-printf("Escoga una opcion (en minusculas) entre:\n Catalogo (c)\n Informacion (i)\n Sugerencias (s)\n Cuenta personal (p)\n");
+printf("Escoga una opcion (en minusculas) entre:\n Catalogo (c)\n Informacion (i)\n Sugerencias (s)\n");
 do{
 	
 scanf(" %c", &opcion);
@@ -19,9 +19,6 @@ printf("Informacion:\n Direccion: Calle Alto del Arenal,8 Madrid \n Telefono: 91
 break;
 case 's': 
 printf("Sugerencias\n");
-break;
-case 'p':
-printf("Cuenta personal\n");
 break;
 while (default);
 
