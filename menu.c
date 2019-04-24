@@ -16,7 +16,7 @@ case 'i':
 printf("Informacion:\n Direccion: Calle Alto del Arenal,8 Madrid \n Telefono: 912-854-493 \n Email: papelerianogales@gmail.com \n");
 break;
 case 's': 
-printf("Sugerecias\n");
+printf("Sugerencias\n");
 break;
 case 'p':
 printf("Cuenta personal\n");
@@ -26,5 +26,5 @@ default:
 printf("Letra incorrecta\n");
 }
 }
-//mar mol
+
 
