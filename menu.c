@@ -6,6 +6,8 @@ char c,i,s,p ;
 int opcion;
 printf("Bienvenido a La Papeleria Nogales: ");
 printf("Escoga una opcion (en minusculas) entre:\n Catalogo (c)\n Informacion (i)\n Sugerencias (s)\n Cuenta personal (p)\n");
+do{
+	
 scanf(" %c", &opcion);
 switch(opcion)
 {
@@ -21,9 +23,9 @@ break;
 case 'p':
 printf("Cuenta personal\n");
 break;
+while (default);
 
-default:
-printf("Letra incorrecta\n");
+}
 }
 }
 
